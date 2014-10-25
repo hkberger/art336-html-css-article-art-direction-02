@@ -5,7 +5,7 @@ Layout Rules
 */
 
 nav[role="navigation"] {
-    text-align: right;
+    text-align: left;
 }
 
 nav[role="navigation"] ul, .contact ul {
@@ -27,8 +27,8 @@ nav[role="navigation"] ul li, .contact ul li {
 header[role="banner"] {
     margin: 30px 0 100px 0;
     @media (min-width: 700px) {
-        float: left;
-        width: 35%;
+        float: center;
+        width: 57%;
     }
 }
 
@@ -38,7 +38,7 @@ header[role="banner"] {
 
 main[role="main"] {
     @media (min-width: 700px) {
-        float: right;
+        float: center;
         width: 60%;
     }
 }
